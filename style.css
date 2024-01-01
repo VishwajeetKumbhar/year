@@ -1181,7 +1181,8 @@ footer {
         transform: translate(10%) rotate(2deg);
     }
     .skills{
-        height: 150vh;
+        /* height: 150vh; */
+        display: none;
     }
     .skills .box-skills .box img {
         height: 70px;
@@ -1350,4 +1351,9 @@ footer {
         font-size: 5vw;
     }
 
+}
+@media (max-width:470px) {
+    .skills{
+        display: none;
+    }
 }
